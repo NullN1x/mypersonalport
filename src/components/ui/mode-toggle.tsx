@@ -10,12 +10,10 @@ export function ModeToggle() {
   const { setTheme, theme } = useTheme();
   const [mounted, setMounted] = React.useState(false);
 
-  // Ensures that the component renders only on the client
   React.useEffect(() => {
     setMounted(true);
   }, []);
 
-  // If not mounted (i.e., during SSR), don't render theme-dependent content
   if (!mounted) return null;
 
   return (
@@ -24,6 +22,7 @@ export function ModeToggle() {
         variant="ghost"
         size="icon"
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+        className="cursor-pointer"
       >
         <Sun
           className={`h-[1.2rem] w-[1.2rem] transition-all ${
