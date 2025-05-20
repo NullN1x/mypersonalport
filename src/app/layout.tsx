@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { type Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Geist } from "next/font/google";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -30,7 +31,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="">{children}</main>
+          <main className="">
+            {children}
+            <Toaster />
+          </main>
         </ThemeProvider>
       </body>
     </html>

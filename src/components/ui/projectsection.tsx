@@ -27,7 +27,7 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="relative mx-auto max-w-6xl px-6 py-24">
+    <section id="projects" className="relative mx-auto max-w-5xl px-6 py-24">
       <h2 className="mb-4 text-center text-4xl font-bold">
         Featured
         <GradientText
