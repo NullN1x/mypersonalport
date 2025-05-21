@@ -14,7 +14,7 @@ const AboutMe: React.FC = () => {
       className="mx-auto max-w-4xl px-6 py-20 text-center sm:py-32"
     >
       <h1 className="text-4xl font-bold text-black md:text-6xl dark:text-white">
-        About
+        More About
         <GradientText
           colors={["#7c3aed", "#6366f1", "#7c3aed", "#6366f1"]}
           animationSpeed={3}
@@ -30,20 +30,29 @@ const AboutMe: React.FC = () => {
         baseRotation={5}
         blurStrength={10}
       >
-        I’m a front-end developer who transforms ideas into fast, accessible,
-        and visually engaging web applications—built with precision and purpose.
+        My passion lies in creating web experiences that are as intuitive as
+        they are impactful. With a strong foundation in designing user-centric
+        and creative interfaces, I&apos;m driven to build applications that not
+        only look great but also enhance the user experience.
       </ScrollReveal>
 
+      <p className="mb-6 text-2xl">
+        I have hands-on experience utilizing a variety of modern technologies
+        and software to craft engaging and responsive web applications. Beyond
+        the code, I pride myself on being highly adaptable and skilled at
+        multitasking in fast-paced environments.
+      </p>
+
       <BlurText
-        text="Building beautiful, performant web apps that make a lasting impact xxxxxxx."
+        text="I thrive on problem-solving and am eager to use my skills to deliver high-quality results that make a real difference."
         delay={150}
         animateBy="words"
         direction="top"
-        className="mb-8 text-2xl"
+        className="text-1xl"
       />
 
       <Link
-        href="#Contact"
+        href="#contact"
         className="mt-8 inline-block rounded-full bg-indigo-600 px-8 py-3 transition hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-400 focus:outline-none dark:bg-indigo-500 dark:hover:bg-indigo-600"
       >
         <ShinyText

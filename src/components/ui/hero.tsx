@@ -53,9 +53,9 @@ const Hero = () => {
           </h1>
 
           <p className="mt-4 text-lg text-black md:text-xl dark:text-white">
-            Front-End Developer specializing in React and modern web
-            technologies. Building clean, performant, and user-friendly web
-            experiences.
+            I&apos;m a Front-End Web Developer specializing in React and other
+            modern web technologies. My goal is to create clean, performant, and
+            user-friendly web applications that drive engagement.
           </p>
 
           <Link

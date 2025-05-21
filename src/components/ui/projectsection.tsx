@@ -10,18 +10,18 @@ import GradientText from "../gradianttext";
 const projects = [
   {
     title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    tech: ["React", "TailwindCSS", "Supabase"],
+    description: "Stunning landing page app built on React and Tailwind CSS.",
+    tech: ["React", "Tailwind", "Framer-motion"],
   },
   {
-    title: "Orbit Analytics Dashboard",
+    title: "Analytics Dashboard",
     description: "Interactive analytics dashboard with data visualization.",
-    tech: ["TypeScript", "D3.js", "Next.js"],
+    tech: ["React", "TypeScript", "PostgreSQL"],
   },
   {
-    title: "E-commerce Platform",
-    description: "Full-featured e-commerce platform with auth and payments.",
-    tech: ["React", "Node.js", "Stripe"],
+    title: "Interactive Web Service",
+    description: "Content delivery platform wtih automated email capabilities",
+    tech: ["React", "Vercel", "Resend"],
   },
 ];
 
@@ -106,7 +106,10 @@ export default function ProjectsSection() {
                       scale={1.1} // Tight glow around icon
                     />
                     <a
-                      href="#"
+                      href="#" // You can keep href="#" or use "javascript:void(0)"
+                      onClick={(e: React.MouseEvent<HTMLAnchorElement>) =>
+                        e.preventDefault()
+                      }
                       className="relative z-10 flex items-center justify-center hover:text-white"
                     >
                       <ExternalLink size={18} />

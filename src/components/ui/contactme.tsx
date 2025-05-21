@@ -89,10 +89,9 @@ export default function ContactForm() {
           </GradientText>
         </h1>
         <p className="mx-auto max-w-2xl text-lg">
-          We'd love to hear from you! Whether you have a question about our
-          services, need assistance, or just want to say hello, feel free to
-          reach out using the contact information below or by filling out the
-          form.
+          If you have a project in mind or just want to collaborate, feel free
+          to contact me using the form below. I'd love to discuss new
+          opportunities!
         </p>
       </div>
 
@@ -104,8 +103,8 @@ export default function ContactForm() {
             <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4">
               <Mail className="h-8 w-8 flex-shrink-0 text-indigo-400" />
               <div>
-                <h3 className="font-semibold">Email Us</h3>
-                <p>info@example.com</p>
+                <h3 className="font-semibold">Email:</h3>
+                <p>Dosiboduwork@gmail.com</p>
               </div>
             </div>
 
@@ -113,8 +112,8 @@ export default function ContactForm() {
             <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4">
               <Phone className="h-8 w-8 flex-shrink-0 text-indigo-400" />
               <div>
-                <h3 className="font-semibold">Call Us</h3>
-                <p>+1 (123) 456-7890</p>
+                <h3 className="font-semibold">Phone:</h3>
+                <p>+1 (929) 248-7108</p>
               </div>
             </div>
 
@@ -122,8 +121,8 @@ export default function ContactForm() {
             <div className="flex flex-col items-center lg:flex-row lg:items-start lg:space-x-4">
               <MapPin className="h-8 w-8 flex-shrink-0 text-indigo-400" />
               <div>
-                <h3 className="font-semibold">Our Location</h3>
-                <p>123 Main St, Anytown, USA 12345</p>
+                <h3 className="font-semibold">Location:</h3>
+                <p>New York, NY</p>
               </div>
             </div>
 
