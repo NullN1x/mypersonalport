@@ -17,7 +17,7 @@ const Hero = () => {
 
   return (
     // <section className="relative h-screen w-full overflow-hidden">
-    <section className="relative mx-auto h-screen w-full max-w-4xl overflow-hidden px-6 py-20 text-center sm:py-32">
+    <section className="relative mx-auto h-screen w-full overflow-hidden px-6 py-20 text-center sm:py-32">
       {/* Particle background */}
       <div className="pointer-events-none absolute inset-0 z-0">
         <Particles
