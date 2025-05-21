@@ -3,7 +3,8 @@ import { Resend } from "resend";
 import { env } from "@/env.js"; // <--- Import env from t3-env
 
 // Initialize Resend with your API key using env.RESEND_API_KEY
-const resend = new Resend(env.RESEND_API_KEY as string); // <--- Use env.RESEND_API_KEY
+// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+const resend = new Resend(env.RESEND_API_KEY); // <--- Use env.RESEND_API_KEY
 
 export async function POST(request: Request) {
   try {
